@@ -1,0 +1,210 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height:1.5;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color:rgb(255, 255, 255);
+
+    
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: -17px;
+    
+}
+
+.nav-item{
+    
+    font-size: 1.2rem;
+    padding: 0 14px;
+}
+
+
+.firstimg{
+    position: absolute;
+    transform: rotate(25deg);
+    width: 60%;
+    right: 30%;
+    
+}
+
+.downbtn{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+#features{
+    padding: 10% 15%;
+    background-color: #ffffff;
+    position:relative;
+  
+}
+
+.row h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+.row p{
+
+    color: #8f8f8f;
+    font-weight: 100px;
+}
+
+.icon {
+    font-size:70px;
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+.fbox{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color:#ef8172;
+    color: white;
+}
+
+.testimg{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+#press{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3% 1%;
+}
+
+.company{
+    margin:25px;
+    width:15%;
+}
+
+.company:hover{
+    opacity: 75%;
+}
+
+
+
+
+
+#pricing{
+    padding:10% 15%;
+    background-color:rgb(249, 244, 244);
+    background-image:url(https://wallpaperaccess.com/full/260164.jpg);
+    background-size: 100%;
+    background-blend-mode:darken;
+
+    text-align: center;
+}
+.tgline{
+    color:#ff4c68;
+}
+
+.card{
+    padding: 0px;
+    
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+#cta{
+    text-align:center;
+    padding:100px;
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+#footer{
+    padding: 5% 15%;
+    background-color:#ffffff;
+    color: #000000;
+    text-align: center;
+}
+.socialicon{
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+.yash{
+    font-size:1.5rem;
+    color:#ff4c68;
+}
+
+
+@media (max-width:1028px){
+.firstimg{
+        position: static;
+       transform: rotate(0);
+       margin: 50px;
+    width: 70%;
+    }
+#title{
+    text-align: center;
+}
+h1{
+    font-size:2.5rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+#testimonials{
+    font-size:15px;
+}
+h2{
+    font-size:1.5rem;
+}
+.company{
+    margin:25px;
+    width:25%;
+}
+
+}
